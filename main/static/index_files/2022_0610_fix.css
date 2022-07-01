@@ -1,0 +1,1297 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&family=Orbitron:wght@900&display=swap');
+	
+html, body {
+	margin: 0 auto 0 0;
+	height: 100%;
+	overflow-x: clip;
+	scroll-behavior: smooth;
+	white-space: normal;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	font-family: 'Lexend', sans-serif;
+	font-size: 1vw;
+	font-kerning: normal !important;
+	letter-spacing: normal !important;
+	line-height: 1.75;
+	color: #FFFFFF;
+	background-image: url("https://azragames.com/img/bg.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: #000066;
+}
+
+a {
+	color: white;
+	font-size: 1.25vh;
+	font-style: italic;
+	text-decoration: none;
+}
+
+h1 {
+	position: absolute;
+	top: -100vh;
+}
+
+h2, h3 {
+	color: #FF0099;
+	font-size: 2vw;
+	font-family: 'Orbitron', sans-serif;
+	line-height: 1.25;
+	text-shadow: -4px 6px 16px rgba(255,0,153,0.75);
+}
+
+h3 {
+	font-size: 1.5vw;
+}
+
+i {
+	font-weight: bold;
+}
+
+ul {
+	padding-inline-start: 24px;
+}
+
+iframe {
+	width: 100%;
+     height: 50vh;
+	float: right;
+     overflow-x: clip;
+     border: none;
+}
+
+slogan {
+	display: block;
+	position: absolute;
+	width: 60%;
+	height: 33%;
+	bottom: 0;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 4vw;
+	line-height: 1.15;
+	font-weight: bolder;
+	text-align: center;
+	text-shadow: 0px 8px 24px rgba(255,0,153,0.75);
+}
+
+sub {
+	display: block;
+	font-size: 1.22vw;
+	color: #FF0099;
+	text-align: center;
+	text-shadow: 0px 8px 24px rgba(255,0,153,0.75);
+}
+
+sub icon {
+	display: inline-block;
+	float: none;
+}
+
+sub .discord {
+	background-image: url("https://azragames.com/img/social_discord.png");
+	background-size: contain;
+}
+
+sub .twitter {
+	background-image: url("https://azragames.com/img/social_twitter.png");
+	background-size: contain;
+}
+
+column {
+	display: block;
+	position: fixed;
+	position: relative;
+	width: 50%;
+	float: left;
+}
+
+column.right {
+	width: calc(50% - 2vw);
+	margin-left: 2vw;
+}
+
+banner {
+	display: block;
+	width: 50%;
+	height: auto;
+	margin: 0 auto;
+}
+
+header {
+	display: block;
+	position: fixed;
+	top: 0;
+	width: 60%;
+	padding: 1vw 20%;
+	background-color: black;
+	background-image:  url("https://azragames.com/img/glass.png");
+	background-size: cover;
+	background-position: center;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	border-bottom: 0.5px solid #FF0099;
+	box-shadow: 0px 16px 64px rgba(255,0,128,0.25);
+	vertical-align: center;
+}
+
+header nav {
+	display: block;
+	height: 2vw;
+	margin-right: 1.5vw;
+	float: left;
+	font-family: 'Orbitron', sans-serif;
+	text-shadow: 0px 6px 16px rgba(255,0,153,0.75);
+	color: #FF0099;
+	cursor: pointer;
+}
+
+header nav:hover {
+	color: white;
+}
+
+header nav:last-child {
+	margin-right: 0;
+}
+
+
+
+#mobilemenu {
+	display: none;
+	position: fixed;
+	top: 0; left: 0;
+	z-index: 50;
+	width: 80vw;
+	height: calc(100vh - 20vw);
+	padding: 10vw;
+	background-color: #FF0099;
+	background-image: url('https://azragames.com/img/azranian.png'), url('https://azragames.com/img/glass.png');
+	background-size: 50vh, cover;
+	background-position: bottom center, center;
+	background-repeat: no-repeat, no-repeat;
+	background-blend-mode: screen, normal;
+}
+
+#mobileNavOpen, #mobileNavClose, #mobileNewsOpen {
+	display: none;
+	position: absolute;
+	top: 2vw;
+	left: 2vw;
+	height: 8vw;
+	width: 8vw;
+	z-index: 15;
+}
+
+#mobileNewsOpen {
+	left: auto;
+	right: 2vw;
+}
+
+logo {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 50%;
+	background: url("https://azragames.com/img/logo_azra.png");
+	background-size: contain;
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+#mobilemenu nav {
+	height: 10vw;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 5vw;
+}
+
+#mobileNavOpen {
+	background: url("https://azragames.com/img/mobileNav.png");
+	background-size: cover;
+	background-position: left;
+}
+
+#mobileNavClose {
+	background: url("https://azragames.com/img/mobileNav.png");
+	background-size: cover;
+	background-position: right;
+}
+
+connect {
+	display: block;
+	position: absolute;
+	top: 1vw; right: 1vw;
+	width: 4vw;
+	height: calc(4vw * 4/3);
+	background-image: url("https://azragames.com/img/connect.png");
+	background-size: cover;
+	background-position: top left;
+	cursor: pointer;
+}
+
+connect:hover {
+	background-position: top right;
+}
+
+module {
+	display: block;
+	position: relative;
+	clear: both;
+	width: 60%;
+	margin: 0 auto;
+	padding: 6vw 20%;
+}
+
+module:nth-child(even):not(:nth-child(2)) {
+	background-image:  url("https://azragames.com/img/glass.png"), url("https://azragames.com/img/bg_module.jpg");
+	background-size: cover, cover;
+	background-position: center, center;
+	background-attachment: scroll, fixed;
+	background-repeat: no-repeat, no-repeat;
+	box-shadow: 0px 16px 64px rgba(255,0,128,0.25); 
+}
+
+
+
+hero {
+	display: inline-block;
+	float: right;
+	width: 50%;
+	height: 40vw;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	mix-blend-mode: screen;
+}
+
+.left {
+	float: left;
+}
+
+#otero {
+	background-image:  url("https://azragames.com/img/markotero.png");
+	background-position: bottom;
+	position: absolute;
+	width: 30vw;
+	bottom: 0;
+	right: 20vw;
+}
+
+#darko	{
+	background-image:  url("https://azragames.com/img/darko.png");
+	margin-top: 12vw;
+	mix-blend-mode: normal;
+}
+
+#azranian	{
+	background-image:  url("https://azragames.com/img/azranian.png");
+	margin-top: -12vh;
+}
+
+#azranianMobile {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100vw;
+	height: 60vh;
+	background-size: contain;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	mix-blend-mode: screen;
+	background-image:  url("https://azragames.com/img/azranian.png");
+}
+
+cell, name, job, desc {
+	display: block;
+}
+
+cell {
+	float: left;
+	width: 25%;
+	margin-bottom: 2vw;
+	text-align: center;
+}
+
+cell portrait {
+	display: block;
+	height: 8vw;
+	width: 8vw;
+	margin: 0 auto;
+	background-size: cover;
+	background-position: center;
+	box-shadow: none;
+	cursor: pointer;
+}
+
+cell name {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 0.9vw;
+}
+
+cell job {
+	font-size: 0.8vw;
+	color: #FF0099;
+	font-style: italic;
+}
+
+#bn {background-image:  url("https://azragames.com/img/profile_bn.png");}
+#cc {background-image:  url("https://azragames.com/img/profile_cc.png");}
+#cm {background-image:  url("https://azragames.com/img/profile_cm.png");}
+#cr {background-image:  url("https://azragames.com/img/profile_cr.png");}
+#dg {background-image:  url("https://azragames.com/img/profile_dg.png");}
+#do {background-image:  url("https://azragames.com/img/profile_do.png");}
+#ds {background-image:  url("https://azragames.com/img/profile_ds.png");}
+#dw {background-image:  url("https://azragames.com/img/profile_dw.png");}
+#ek {background-image:  url("https://azragames.com/img/profile_ek.png");}
+#gc {background-image:  url("https://azragames.com/img/profile_gc.png");}
+#ha {background-image:  url("https://azragames.com/img/profile_ha.png");}
+#is {background-image:  url("https://azragames.com/img/profile_is.png");}
+#jb {background-image:  url("/static/index_files/daniela_muench.jpg");}
+#jm {background-image:  url("https://azragames.com/img/profile_jm.png");}
+#jr {background-image:  url("https://azragames.com/img/profile_jr.png");}
+#jw {background-image:  url("https://azragames.com/img/profile_jw.png");}
+#kd {background-image:  url("https://azragames.com/img/profile_kd.png");}
+#kk {background-image:  url("https://azragames.com/img/profile_kk.png");}
+#kt {background-image:  url("https://azragames.com/img/profile_kt.png");}
+#kw {background-image:  url("https://azragames.com/img/profile_kw.png");}
+#lt {background-image:  url("https://azragames.com/img/profile_alias2.png");}
+#mc {background-image:  url("https://azragames.com/img/profile_mc.png");}
+#mn {background-image:  url("https://azragames.com/img/profile_mn.png");}
+#mo {background-image:  url("https://azragames.com/img/profile_mo.png");}
+#mv {background-image:  url("https://azragames.com/img/profile_mv.png");}
+#nf {background-image:  url("https://azragames.com/img/profile_nf.png");}
+#nk {background-image:  url("https://azragames.com/img/profile_nk.png");}
+#nu {background-image:  url("https://azragames.com/img/profile_nu.png");}
+#pk {background-image:  url("https://azragames.com/img/profile_pk.png");}
+#pm {background-image:  url("https://azragames.com/img/profile_pm.png");}
+#sc {background-image:  url("https://azragames.com/img/profile_alias3.png");}
+#sm {background-image:  url("https://azragames.com/img/profile_sm.png");}
+#sb {background-image:  url("https://azragames.com/img/profile_sb.png");}
+#sl {background-image:  url("https://azragames.com/img/profile_sl.png");}
+#tb {background-image:  url("https://azragames.com/img/profile_tb.png");}
+#yk {background-image:  url("https://azragames.com/img/profile_yk.png");}
+
+partner {
+	display: block;
+	position: relative;
+	float: left;
+	width: calc(100%/3 - 4vw);
+	height: 10vh;
+	margin: 2vw;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	mix-blend-mode: screen;
+}
+
+#ahz {background-image:  url("https://azragames.com/img/partner_ah.png");}
+#cbv {background-image:  url("https://azragames.com/img/partner_cbv.png");}
+#ftp {background-image:  url("https://azragames.com/img/partner_ft.png");}
+#nfx {background-image:  url("https://azragames.com/img/partner_nfx.png");}
+#ply {background-image:  url("https://azragames.com/img/partner_play.png");}
+#rok {background-image:  url("https://azragames.com/img/partner_rok.png");}
+
+
+mission {
+	display: block;
+	float: left;
+	width: 25%;
+	height: 28vw;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+mission:nth-child(even) {
+	background-position: bottom;
+}
+
+mission:nth-child(odd) {
+	background-position: top;
+}
+
+#m1 {background-image:  url("https://azragames.com/img/m1.png");}
+#m2 {background-image:  url("https://azragames.com/img/m2.png");}
+#m3 {background-image:  url("https://azragames.com/img/m3.png");}
+#m4 {background-image:  url("https://azragames.com/img/m4.png");}
+
+timeline {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	clear: both;
+}
+
+timeline h3 {
+	margin: 3vh 0 3vh 0;
+	padding-bottom: 2vw;
+	border-bottom: 2px solid #FF0099;
+}
+
+timeline date {
+	display: block;
+	float: left;
+	width: 25%;
+	padding-right: 5%;
+	height: 2vw;
+	font-size: 1vw;
+	color: #FF0099;
+	text-align: right;
+}
+
+timeline event {
+	display: block;
+	float: left;
+	width: 70%;
+	min-height: 2vw;
+	height: auto;
+	font-size: 1vw;
+}
+
+.highlight {
+	background-image:  url("https://azragames.com/img/highlight.png");
+	background-size: cover;
+	background-position: center;
+	font-weight: bolder;
+}
+
+.mobile {
+	display: none;
+}
+
+#messenger {
+	width: 100%;
+}
+
+#messenger input, #messenger button, button, #messenger textarea {
+	width: calc(100% - 2vh);
+	min-height: 4vh;
+	margin-bottom: 2vh;
+	border: 0;
+	padding: 1vh;
+	font-family: 'Lexend', sans-serif;
+	color: #000066;
+	border-radius: 2px;
+}
+
+textarea {
+	resize: vertical;
+	min-height: 25vh;
+}
+
+#messenger button, button {
+	width: 100%;
+	height: 6vh;
+	font-family: 'Orbitron', sans-serif;
+	color: white;
+	background-color: #FF0099;
+	border: 0;
+	box-shadow: -4px 6px 32px rgba(255,0,153,0.5);
+	cursor: pointer;
+	letter-spacing: 2px;
+}
+
+#messenger button:hover, button:hover {
+	background-color: white;
+	background-image: none;
+	color: #FF0099;
+	box-shadow: -4px 6px 64px rgba(255,0,153,0.5);
+}
+
+button {
+	width: 50%;
+	margin: auto 0;
+}
+
+icon {
+	display: block;
+	float: left;
+	height: 4vw;
+	width: 4vw;
+	margin-bottom: 1vw;
+	background-image: url('https://azragames.com/img/social_2022_0518.png');
+	background-size: 12vw;
+	cursor: pointer;
+}
+
+#discord {background-position: top center;}
+#email {background-position: top right;}
+#facebook {background-position: center left;}
+#instagram {background-position: center center;}
+#linkedin {background-position: center right;}
+#medium {background-position: top left;}
+#twitter {background-position: bottom center;}
+#youtube {background-position: bottom right;}
+
+footer {
+	display: block;
+	position: relative;
+	width: 100%;
+	padding: 2vh 0;
+	text-align: center;
+	color: #FF0099;
+}
+
+#top {
+	margin-top: 4vw;
+	height: 70vh;
+	background-image: url('https://azragames.com/img/bg_crystal.png');
+	background-size: cover;
+	background-position: center;
+}
+
+top {
+	display: none;
+	position: fixed;
+	bottom: 1vw;
+	right: 1vw;
+	width: 4vw;
+	height: 4vw;
+	cursor: pointer;
+	background-image:  url("https://azragames.com/img/top.png");
+	background-size: cover;
+	background-position: left;
+}
+
+top:hover {
+	background-position: right;
+}
+
+rule {
+	display: block;
+	width: 100%;
+	height: 4vw;
+	border-top: 2px solid #FF0099;
+	margin-top: 4vw;
+	clear: both;
+}
+
+clearfix {
+	width: 100%;
+	display: block;
+	clear: both;
+}
+
+#news {
+	float: right;
+}
+
+#newsfeed {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 60vw;
+	height: calc(100vh - 1vw);
+	padding: 1vw 20vw;
+	background-image: url('https://azragames.com/img/glass.png'), url('https://azragames.com/img/bg_module.jpg');
+	background-size: cover, cover;
+	background-position: left, center;
+	background-repeat: no-repeat;
+	font-size: 0.9vw;
+	overflow-y: scroll;
+	z-index: 50;
+}
+
+#newsOpen, #newsClose {
+	display: block;
+	height: 2vw;
+	width: 2vw;
+	margin: -0.25vw 0 0 0.25vw;
+	background-image: url("https://azragames.com/img/newsNav.png");
+	background-size: cover;
+	cursor: pointer;
+}
+
+#mobileNewsOpen, #mobileNewsClose {
+	background-image: url("https://azragames.com/img/newsNav.png");
+	background-size: cover;
+}
+
+#newsOpen, #mobileNewsOpen {
+	background-position: left;
+	float: right;
+}
+
+#news:hover #newsOpen, #mobileNewsOpen:hover {
+	background-position: center;
+}
+
+#newsClose {
+	position: fixed;
+	right: 20vw;
+	background-position: right;
+}
+
+#mobileNewsClose {
+	background-position: right;
+}
+
+#newsArea {
+	width: 95%;
+	padding: 1vw 0;
+}
+
+#newsfeed item {
+	display: block;
+	position: relative;
+	float: left;
+	width: calc(50% - 2.5vw);
+	padding: 1vw;
+	margin: 0 0 1vw 0;
+	color: white;
+	background-color: white;
+	background-image: url('https://azragames.com/img/glass.png');
+	background-size: cover;
+	background-position: right;
+	box-shadow: 4px 16px 32px rgba(255,0,128,0.25);
+	border: 0.25px outset white;
+	border-radius: 0.5vw;
+	cursor: pointer;
+}
+
+#newsfeed item:hover {
+	background-position: center;
+}
+
+#newsfeed item:nth-child(even) {
+	float: right;
+}
+
+#newsfeed item img {
+	border-radius: 0.25vw;
+	mix-blend-mode: normal;
+	width: 100%;
+}
+
+#newsfeed item:hover img {
+	mix-blend-mode: overlay;
+}
+
+#newsfeed item h3 {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 1.35vw;
+	line-height: 1.15;
+	margin: 0;
+	color: white;
+	text-shadow: none;
+}
+
+#newsfeed item p {
+	line-height: 1.25;
+	margin-top: 0.5vw;
+	margin-bottom: 0;
+}
+
+::-webkit-scrollbar {
+	width: 0.5vw;
+}
+
+::-webkit-scrollbar-track {
+	background-image: url('https://azragames.com/img/glass.png');
+	background-size: cover;
+	background-position: left;
+	background-color: #000088;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #FF0099;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #FFFFFF;
+}
+
+.xl {
+	font-size: 3vh;
+}
+
+.whr-items {
+	
+}
+
+.whr-items a {
+	font-size: 1vw;
+	color: #FF0099;
+}
+
+.whr-items a:hover {
+	color: white;
+}
+
+.whr-title {
+	margin: 0;
+}
+
+.whr-info {
+	display: none;
+}
+
+@media (orientation: portrait) {
+	
+	html, body {
+		margin: 0 auto 0 0;
+		width: 100%;
+		height: 100%;
+		overflow-x: auto;
+		font-size: 3.75vw;
+		line-height: 1.75;
+	}
+	
+	h2 {
+		font-size: 6vw;
+	}
+	
+	h3 {
+		font-size: 4vw;
+	}
+	
+	iframe {
+		width: 100%;
+		height: 65vh;
+		float: none;
+		clear: both;
+	}
+	
+	header {
+		display: none;
+	}
+	
+	slogan {
+		width: 80%;
+		height: 24%;
+		font-size: 8vw;
+	}
+	
+	sub {
+		font-size: 2.45vw;
+	}
+	
+	#mobileNavOpen, #mobileNewsOpen {
+		display: block;
+	}
+	
+	#top {
+		margin-top: 0;
+	}
+	
+	logo {
+		width: 100%;
+		height: 35vw;
+		margin-top: -4vw;
+	}
+	
+	connect, hero, #credit {
+		display: none;
+	}
+	
+	#darko {
+		display: block;
+		width: 100%;
+		height: 100vw;
+		margin: 0;
+	}
+	
+	module {
+		width: 80vw;
+		margin: 0 auto;
+		padding: 10vw;
+	}
+	
+	column {
+		width: 100%;
+		float: none;
+		clear: both;
+	}
+	
+	column.right {
+		width: 100%;
+		margin-left: 0;
+	}
+	
+	banner {
+		width: 100%;
+	}
+	
+	cell {
+		float: left;
+		width: calc(1/2*100%);
+		margin-bottom: 4vw;
+		text-align: center;
+	}
+	
+	cell portrait {
+		height: 24vw;
+		width: 24vw;
+	}
+
+	cell name {
+		font-size: 2.75vw;
+	}
+
+	cell job {
+		font-size: 2.75vw;
+	}
+
+	partner {
+		width: 40%;
+		height: 8vh;
+		margin: 2vw 5%;
+	}
+
+	mission {
+		width: 100%;
+		height: 125vw;
+		margin-top: -4vw;
+	}
+	
+	mission:nth-child(even) {
+		background-position: center;
+	}
+
+	mission:nth-child(odd) {
+		background-position: center;
+	}
+	
+	timeline {
+		width: 100%;
+	}
+	
+	timeline date, timeline event {
+		font-size: 3vw;
+	}
+	
+	icon {
+		height: calc(80vw/6);
+		width: calc(80vw/6);
+		margin-bottom: 4vw;
+		background-size: calc(80vw/2);
+	}
+	
+	#messenger {
+		font-size: 5vw;
+	}
+	
+	input, textarea, button {
+		font-size: 3vw;
+	}
+	
+	#messenger button, button {
+		height: 8vh;
+	}
+
+	button {
+		width: 100%;
+	}
+
+	#top {
+		background-size: 210vh;
+	}
+	
+	top {
+		display: block;
+		position: absolute;
+		width: 12vw;
+		height: 12vw;
+		bottom: 1vw;
+		right: 0vw;
+	}
+	
+	rule {
+		height: 8vw;
+		margin-top: 8vw;
+	}
+	
+	#newsfeed {
+		width: 70vw;
+		height: 100vh;
+		padding: 0 15vw;
+		font-size: 2.5vw;
+	}
+	
+	#newsClose {
+		width: 8vw;
+		height: 8vw;
+		top: 4vw;
+		right: 4vw;
+	}
+	
+	#newsArea {
+		margin-bottom: 8vw;
+	}
+	
+	#newsfeed item {
+		padding: 3vw;
+		width: calc(100% - 6vw);
+		margin: 4vw 0 0 0 !important;
+	}
+	
+	#newsfeed item h3 {
+		font-size: 3.25vw;
+	}
+	
+	::-webkit-scrollbar {
+		width: 0;
+	}
+	
+	.mobile {
+		display: block;
+	}
+	
+	.whr-items a {
+		font-size: 3.25vw;
+	}
+	
+}
+
+@media (min-height: 1024px) and (orientation: portrait) {
+
+	html, body {
+		font-size: 2.25vw;
+	}
+	
+	mission {
+		width: 50%;
+		height: 62vw;
+	}
+	
+	
+	#mobileNavOpen, #mobileNavClose, #mobileNewsOpen {
+		height: 6vw;
+		width: 6vw;
+	}
+	
+	rule {
+		height: 4vw;
+		margin-top: 4vw;
+	}
+	
+	top {
+		display: block;
+		bottom: 2vw;
+		right: 2vw;
+		height: 8vw;
+		width: 8vw;
+	}
+
+}
+
+@media (max-width: 1024px) and (orientation: landscape) {
+	
+	html, body {
+		font-size: 1.65vw;
+	}
+
+	a {
+		font-size: 2.25vh;
+	}
+
+	h2 {
+		font-size: 3vw;
+	}
+
+	h3 {
+		font-size: 2vw;
+	}
+
+	header {
+		display: none;
+	}
+
+	logo {
+		height: 60%;
+	}
+
+	slogan {
+		width: 80%;
+		height: 33%;
+		font-size: 5vw;
+	}
+
+	sub {
+		font-size: 1.5vw;
+	}
+
+	connect {
+		top: 2vw; right: 2vw;
+		width: 8vw;
+		height: calc(8vw * 4/3);
+		display: none;
+	}
+
+	#mobilemenu {
+		background-image: url('https://azragames.com/img/glass.png');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-blend-mode: normal;
+		width: calc(50vw - 20vw);
+		height: calc(100vh - 20vw);
+		padding: 10vw;
+		margin-right: 100vw;
+	}
+
+	#mobilemenu logo {
+		display: none;
+	}
+
+	#mobilemenu nav {
+		height: 8vh;
+		font-size: 4vh;
+	}
+
+	#mobileNavOpen, #mobileNewsOpen {
+		display: block;
+		position: fixed;
+		z-index: 25;
+	}
+
+	#mobileNavOpen, #mobileNavClose, #mobileNewsOpen {
+		top: 2vw;
+		left: 2vw;
+		height: 4vw;
+		width: 4vw;
+	}
+
+	#mobileNewsOpen {
+		left: auto;
+		right: 2vw;
+	}
+
+	module {
+		width: 80%;
+		min-height: 70vh;
+		padding: 6vw 10%;
+	}
+
+	hero {
+		height: 90vh;
+	}
+
+	#azranian {
+		margin-top: -10vh;
+	}
+	
+	#otero {
+		width: 40vw;
+		height: 100vh;
+		right: 10vw;
+	}
+
+	#darko {
+		height: 100vh;
+		margin-top: 12vw;
+	}
+
+	cell portrait {
+		height: 12vw;
+		width: 12vw;
+	}
+
+	cell name {
+		font-size: 1.25vw;
+	}
+
+	cell job {
+		font-size: 1.15vw;
+	}
+
+	timeline date, timeline event {
+		font-size: 1.65vw;
+	}
+
+	#messenger input, #messenger button, #messenger textarea {
+		font-size: 1.5vw;
+		width: calc(100% - 4vh);
+		padding: 2vh;
+	}
+
+	#messenger button, button {
+		width: 100%;
+		height: 6vw;
+	}
+
+	icon {
+		height: 6vw;
+		width: 6vw;
+		background-size: 18vw;
+	}
+
+	#top {
+		margin-top: 0;
+	}
+
+	top {
+		width: 4vw;
+		height: 4vw;
+		bottom: 2vw;
+		right: 2vw;
+	}
+
+	#newsfeed {
+		width: 80vw;
+		height: 100vh;
+		padding: 0 10vw;
+		font-size: 1.5vw;
+	}
+
+	#newsClose {
+		width: 4vw;
+		height: 4vw;
+		top: 2vw;
+		right: 2vw;
+	}
+
+	#newsArea {
+		width: 100%;
+		margin-bottom: 8vw;
+	}
+
+	#newsfeed item {
+		width: calc(50% - 5vw);
+		padding: 2vw;
+		margin: 2vw 0 0 0;
+	}
+
+	#newsfeed item h3 {
+		font-size: 1.75vw;
+	}
+
+	.whr-items a {
+		font-size: 1.5vw;
+	}
+
+}
+
+@media (min-width: 1025px) and (orientation: landscape) {
+
+	html, body {
+		font-size: 1.75vh;
+	}
+	
+	hero {
+		height: 70vh;
+	}
+	
+	#darko {
+		height: 60vh;
+	}
+
+}
+
+.container-fluid{
+	width: 100%;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.container{
+	background: rgba(255, 255, 255, 0.1);
+	border: 2px solid rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(128px);
+	/* Note: backdrop-filter has minimal browser support */
+
+	border-radius: 16px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 24px;
+	gap: 8px;
+}
+
+.container h2 {
+	font-family: 'Orbitron';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 30px;
+	text-align: center;
+	color: #FFFFFF;
+	text-shadow: 0px 0px 11.4149px #FB0170;
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+
+#error-message {
+	font-family: 'Orbitron';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 30px;
+	text-align: center;
+	color: #FFFFFF;
+	text-shadow: 0px 0px 11.4149px #fb0101;
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+
+.container input{
+	font-family: 'Orbitron';
+	width: 192px;
+	height: 41px;
+	background: #0A0A30;
+	border-radius: 8px;
+	color:#FFFFFF;
+	border: none;
+	text-align: center;
+	outline: none;
+}
+
+.container input::placeholder{
+	color:#FFFFFF;
+}
+
+.downlaod-button{
+	margin-top: 20px;
+	flex-direction: row;
+	align-items: center;
+	padding: 12px 24px;
+	gap: 8px;
+	width: 247px;
+	height: 54px;
+	background: #FB0170;
+	border-radius: 8px;
+	text-align: center;
+}
+
+.downlaod-button:hover{
+	margin-top: 20px;
+	flex-direction: row;
+	align-items: center;
+	padding: 12px 24px;
+	gap: 8px;
+	width: 247px;
+	height: 54px;
+	background: #FB0170;
+	border-radius: 8px;
+	text-align: center;
+	color: white;
+}
+
+.downlaod-button img{
+	margin-right: 10px;	
+}
+
+.margin-top{
+	margin-top: 100px;
+}
+
+sub .telegram{
+	background-image: url("./telegram.png");
+	background-size: contain;
+}
+
+column #telegram{
+    height: 4vw !important;
+    width: 4vw !important;
+	height: 100%;
+	background: url("./telegram1.png") no-repeat center;
+    background-size: 3.5vw;
+	float: left;
+}
